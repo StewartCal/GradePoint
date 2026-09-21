@@ -1,5 +1,13 @@
 # GradePoint
 
+## Project Information
+Author: Cal Stewart  
+Contact: castewart@tntech.edu   
+GitHub Repository: [https://github.com/StewartCal/GradePoint.git](https://github.com/StewartCal/GradePoint.git)
+
+The complete list of planned features for GradePoint is available in `user_stories.pdf`.
+
+
 ## Program Description
 
 GradePoint is a grade and GPA tracking program for college students. It allows students to organize their academic information by semester and course and track their progress throughout a semester.
