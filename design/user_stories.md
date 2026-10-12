@@ -8,13 +8,13 @@
 4. **Autocalculate Final Grade:** As a student, I want my final class grade to be calculated automatically so that it reflects the grades I have entered.
 5. **Calculate Semester GPA:** As a student, I want GradePoint to calculate my semester GPA so that I can see my GPA for an individual semester.
 6. **Calculate Overall GPA:** As a student, I want GradePoint to calculate my overall GPA so that I can see my cumulative GPA across semesters.
+7. **Weighted Class:** As a student, I want to create a class that uses weighted grading so that my grade can be calculated using category weights.
+8. **Points Class:** As a student, I want to create a class that uses points-based grading so that my grade can be calculated using points earned and points possible.
 
 ## Should Have
 
-7. **Edit Semester:** As a student, I want to edit a semester so that I can update information about it.
-8. **Delete Semester:** As a student, I want to delete a semester so that I can remove a semester I no longer want to track.
-9. **Weighted Class:** As a student, I want to create a class that uses weighted grading so that my grade can be calculated using category weights.
-10. **Points Class:** As a student, I want to create a class that uses points-based grading so that my grade can be calculated using points earned and points possible.
+9. **Edit Semester:** As a student, I want to edit a semester so that I can update information about it.
+10. **Delete Semester:** As a student, I want to delete a semester so that I can remove a semester I no longer want to track.
 11. **Edit Class:** As a student, I want to edit a class so that I can update its information.
 12. **Delete Class:** As a student, I want to delete a class so that I can remove a class I no longer want to track.
 13. **Edit Assignment:** As a student, I want to edit an assignment so that I can update its information or grade.

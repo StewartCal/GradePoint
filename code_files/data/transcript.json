@@ -1,0 +1,322 @@
+{
+  "semesters": [
+    {
+      "term": "Fall",
+      "year": 2024,
+      "courses": [
+        {
+          "name": "Introduction to Programming",
+          "subject_code": "CSC",
+          "number_code": 1200,
+          "hours": 3,
+          "final_grade": "A",
+          "grade_override": false,
+          "grading_type": "points",
+          "total_points": 1000,
+          "assignments": [
+            {"title": "Program 1", "category": "Programs", "possible_grade": 100, "earned_grade": 94},
+            {"title": "Program 2", "category": "Programs", "possible_grade": 100, "earned_grade": 89},
+            {"title": "Exam 1", "category": "Exams", "possible_grade": 200, "earned_grade": 181},
+            {"title": "Final Exam", "category": "Exams", "possible_grade": 250, "earned_grade": 228}
+          ]
+        },
+        {
+          "name": "Calculus I",
+          "subject_code": "MATH",
+          "number_code": 1910,
+          "hours": 4,
+          "final_grade": "B",
+          "grade_override": false,
+          "grading_type": "weighted",
+          "categories": {
+            "Homework": 0.20,
+            "Quizzes": 0.20,
+            "Exams": 0.40,
+            "Final": 0.20
+          },
+          "assignments": [
+            {"title": "Homework 1", "category": "Homework", "possible_grade": 100, "earned_grade": 92},
+            {"title": "Quiz 1", "category": "Quizzes", "possible_grade": 50, "earned_grade": 41},
+            {"title": "Exam 1", "category": "Exams", "possible_grade": 100, "earned_grade": 83},
+            {"title": "Final Exam", "category": "Final", "possible_grade": 100, "earned_grade": 86}
+          ]
+        },
+        {
+          "name": "English Composition I",
+          "subject_code": "ENGL",
+          "number_code": 1010,
+          "hours": 3,
+          "final_grade": "A",
+          "grade_override": false,
+          "grading_type": "weighted",
+          "categories": {
+            "Essays": 0.60,
+            "Participation": 0.15,
+            "Final": 0.25
+          },
+          "assignments": [
+            {"title": "Narrative Essay", "category": "Essays", "possible_grade": 100, "earned_grade": 93},
+            {"title": "Argument Essay", "category": "Essays", "possible_grade": 100, "earned_grade": 96},
+            {"title": "Participation", "category": "Participation", "possible_grade": 100, "earned_grade": 100},
+            {"title": "Final Portfolio", "category": "Final", "possible_grade": 100, "earned_grade": 94}
+          ]
+        },
+        {
+          "name": "General Psychology",
+          "subject_code": "PSY",
+          "number_code": 2010,
+          "hours": 3,
+          "final_grade": "B",
+          "grade_override": false,
+          "grading_type": "points",
+          "total_points": 500,
+          "assignments": [
+            {"title": "Quiz 1", "category": "Quizzes", "possible_grade": 50, "earned_grade": 42},
+            {"title": "Quiz 2", "category": "Quizzes", "possible_grade": 50, "earned_grade": 45},
+            {"title": "Midterm", "category": "Exams", "possible_grade": 150, "earned_grade": 126},
+            {"title": "Final Exam", "category": "Exams", "possible_grade": 200, "earned_grade": 168}
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring",
+      "year": 2025,
+      "courses": [
+        {
+          "name": "Data Structures",
+          "subject_code": "CSC",
+          "number_code": 1310,
+          "hours": 4,
+          "final_grade": "B",
+          "grade_override": false,
+          "grading_type": "weighted",
+          "categories": {
+            "Labs": 0.25,
+            "Programs": 0.30,
+            "Exams": 0.30,
+            "Final": 0.15
+          },
+          "assignments": [
+            {"title": "Lab 1", "category": "Labs", "possible_grade": 100, "earned_grade": 90},
+            {"title": "Program 1", "category": "Programs", "possible_grade": 100, "earned_grade": 84},
+            {"title": "Exam 1", "category": "Exams", "possible_grade": 100, "earned_grade": 81},
+            {"title": "Final Exam", "category": "Final", "possible_grade": 100, "earned_grade": 87}
+          ]
+        },
+        {
+          "name": "Calculus II",
+          "subject_code": "MATH",
+          "number_code": 1920,
+          "hours": 4,
+          "final_grade": "C",
+          "grade_override": true,
+          "grading_type": "points",
+          "total_points": 800,
+          "assignments": [
+            {"title": "Homework 1", "category": "Homework", "possible_grade": 50, "earned_grade": 42},
+            {"title": "Homework 2", "category": "Homework", "possible_grade": 50, "earned_grade": 38},
+            {"title": "Exam 1", "category": "Exams", "possible_grade": 200, "earned_grade": 143},
+            {"title": "Final Exam", "category": "Exams", "possible_grade": 250, "earned_grade": 172}
+          ]
+        },
+        {
+          "name": "English Composition II",
+          "subject_code": "ENGL",
+          "number_code": 1020,
+          "hours": 3,
+          "final_grade": "A",
+          "grade_override": false,
+          "grading_type": "weighted",
+          "categories": {
+            "Essays": 0.65,
+            "Research": 0.20,
+            "Participation": 0.15
+          },
+          "assignments": [
+            {"title": "Analysis Essay", "category": "Essays", "possible_grade": 100, "earned_grade": 95},
+            {"title": "Research Paper", "category": "Research", "possible_grade": 100, "earned_grade": 91},
+            {"title": "Final Essay", "category": "Essays", "possible_grade": 100, "earned_grade": 94},
+            {"title": "Participation", "category": "Participation", "possible_grade": 100, "earned_grade": 100}
+          ]
+        },
+        {
+          "name": "Public Speaking",
+          "subject_code": "COMM",
+          "number_code": 2025,
+          "hours": 3,
+          "final_grade": "A",
+          "grade_override": false,
+          "grading_type": "points",
+          "total_points": 600,
+          "assignments": [
+            {"title": "Informative Speech", "category": "Speeches", "possible_grade": 150, "earned_grade": 141},
+            {"title": "Persuasive Speech", "category": "Speeches", "possible_grade": 150, "earned_grade": 144},
+            {"title": "Group Presentation", "category": "Speeches", "possible_grade": 150, "earned_grade": 137},
+            {"title": "Final Reflection", "category": "Writing", "possible_grade": 100, "earned_grade": 96}
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Fall",
+      "year": 2025,
+      "courses": [
+        {
+          "name": "Object-Oriented Programming",
+          "subject_code": "CSC",
+          "number_code": 2310,
+          "hours": 3,
+          "final_grade": "A",
+          "grade_override": false,
+          "grading_type": "weighted",
+          "categories": {
+            "Labs": 0.25,
+            "Projects": 0.35,
+            "Quizzes": 0.15,
+            "Exams": 0.25
+          },
+          "assignments": [
+            {"title": "Lab 1", "category": "Labs", "possible_grade": 100, "earned_grade": 96},
+            {"title": "Project 1", "category": "Projects", "possible_grade": 100, "earned_grade": 92},
+            {"title": "Quiz 1", "category": "Quizzes", "possible_grade": 50, "earned_grade": 47},
+            {"title": "Exam 1", "category": "Exams", "possible_grade": 100, "earned_grade": 91}
+          ]
+        },
+        {
+          "name": "Discrete Mathematics",
+          "subject_code": "CSC",
+          "number_code": 2400,
+          "hours": 3,
+          "final_grade": "B",
+          "grade_override": false,
+          "grading_type": "points",
+          "total_points": 700,
+          "assignments": [
+            {"title": "Homework 1", "category": "Homework", "possible_grade": 50, "earned_grade": 45},
+            {"title": "Homework 2", "category": "Homework", "possible_grade": 50, "earned_grade": 43},
+            {"title": "Exam 1", "category": "Exams", "possible_grade": 200, "earned_grade": 162},
+            {"title": "Final Exam", "category": "Exams", "possible_grade": 250, "earned_grade": 203}
+          ]
+        },
+        {
+          "name": "Linear Algebra",
+          "subject_code": "MATH",
+          "number_code": 2010,
+          "hours": 3,
+          "final_grade": "B",
+          "grade_override": false,
+          "grading_type": "weighted",
+          "categories": {
+            "Homework": 0.25,
+            "Quizzes": 0.15,
+            "Exams": 0.40,
+            "Final": 0.20
+          },
+          "assignments": [
+            {"title": "Homework 1", "category": "Homework", "possible_grade": 100, "earned_grade": 88},
+            {"title": "Quiz 1", "category": "Quizzes", "possible_grade": 50, "earned_grade": 41},
+            {"title": "Exam 1", "category": "Exams", "possible_grade": 100, "earned_grade": 84},
+            {"title": "Final Exam", "category": "Final", "possible_grade": 100, "earned_grade": 82}
+          ]
+        },
+        {
+          "name": "Technical Writing",
+          "subject_code": "ENGL",
+          "number_code": 3130,
+          "hours": 3,
+          "final_grade": "A",
+          "grade_override": false,
+          "grading_type": "points",
+          "total_points": 500,
+          "assignments": [
+            {"title": "Memo", "category": "Writing", "possible_grade": 75, "earned_grade": 72},
+            {"title": "Proposal", "category": "Writing", "possible_grade": 125, "earned_grade": 118},
+            {"title": "Technical Report", "category": "Writing", "possible_grade": 200, "earned_grade": 188},
+            {"title": "Presentation", "category": "Presentation", "possible_grade": 100, "earned_grade": 94}
+          ]
+        }
+      ]
+    },
+    {
+      "term": "Spring",
+      "year": 2026,
+      "courses": [
+        {
+          "name": "Computer Organization",
+          "subject_code": "CSC",
+          "number_code": 3410,
+          "hours": 3,
+          "final_grade": "B",
+          "grade_override": false,
+          "grading_type": "weighted",
+          "categories": {
+            "Labs": 0.30,
+            "Homework": 0.15,
+            "Exams": 0.35,
+            "Final": 0.20
+          },
+          "assignments": [
+            {"title": "Lab 1", "category": "Labs", "possible_grade": 100, "earned_grade": 91},
+            {"title": "Homework 1", "category": "Homework", "possible_grade": 50, "earned_grade": 43},
+            {"title": "Exam 1", "category": "Exams", "possible_grade": 100, "earned_grade": 82},
+            {"title": "Final Exam", "category": "Final", "possible_grade": 100, "earned_grade": 85}
+          ]
+        },
+        {
+          "name": "Database Management",
+          "subject_code": "CSC",
+          "number_code": 3040,
+          "hours": 3,
+          "final_grade": "A",
+          "grade_override": false,
+          "grading_type": "points",
+          "total_points": 750,
+          "assignments": [
+            {"title": "SQL Lab 1", "category": "Labs", "possible_grade": 100, "earned_grade": 98},
+            {"title": "SQL Lab 2", "category": "Labs", "possible_grade": 100, "earned_grade": 94},
+            {"title": "Database Project", "category": "Project", "possible_grade": 250, "earned_grade": 238},
+            {"title": "Final Exam", "category": "Exam", "possible_grade": 200, "earned_grade": 185}
+          ]
+        },
+        {
+          "name": "Probability and Statistics",
+          "subject_code": "MATH",
+          "number_code": 3070,
+          "hours": 3,
+          "final_grade": "B",
+          "grade_override": false,
+          "grading_type": "weighted",
+          "categories": {
+            "Homework": 0.20,
+            "Quizzes": 0.20,
+            "Exams": 0.40,
+            "Final": 0.20
+          },
+          "assignments": [
+            {"title": "Homework 1", "category": "Homework", "possible_grade": 100, "earned_grade": 86},
+            {"title": "Quiz 1", "category": "Quizzes", "possible_grade": 50, "earned_grade": 42},
+            {"title": "Exam 1", "category": "Exams", "possible_grade": 100, "earned_grade": 81},
+            {"title": "Final Exam", "category": "Final", "possible_grade": 100, "earned_grade": 84}
+          ]
+        },
+        {
+          "name": "Ethics in Technology",
+          "subject_code": "PHIL",
+          "number_code": 2640,
+          "hours": 3,
+          "final_grade": "A",
+          "grade_override": false,
+          "grading_type": "points",
+          "total_points": 400,
+          "assignments": [
+            {"title": "Discussion 1", "category": "Discussions", "possible_grade": 50, "earned_grade": 48},
+            {"title": "Case Study", "category": "Writing", "possible_grade": 100, "earned_grade": 94},
+            {"title": "Research Essay", "category": "Writing", "possible_grade": 150, "earned_grade": 142},
+            {"title": "Final Reflection", "category": "Writing", "possible_grade": 100, "earned_grade": 95}
+          ]
+        }
+      ]
+    }
+  ]
+}
